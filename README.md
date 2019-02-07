@@ -35,35 +35,71 @@ pd.__version__
 
 ## Use Cases
 
-###1. Data Cleaning
+### 1. Converting xlsx files to pure text csv files
 
-Explain how to run the automated tests for this system
+We have taken the input dataset ad converted it into pure text CSV format for easy cleaning process.
+"xlsx_to_csv.py" is a script that will automatically convert all the original datasets stored in folder datasets to text csv format and store them in converted/datsets.
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+To convert the datasets:
+1. Open Anaconda prompt and go to folder opendatapune-birth_and_death_records/converted_datasets.
+2. Run the commands stored in conversion_commands.txt for the required conversion.
+Example:
 ```
-Give an example
+python xlsx_to_csv.py ../datasets/"List of Birth And Death rate for the year 2010.xlsx" 2010 birth_and_death_2010.csv
 ```
+After running all the commands u will see that all the xlsx files are converted to csv files and a essage "Successfully completed" id shown after each conversion
 
-### And coding style tests
+### 2. Data Cleaning
 
-Explain what these tests test and why
+The csv files are then cleaned using "clean.ipynb"
+Steps in cleaning:
+1. Corrected miss interpreted dates to dd/mm/yyyy
+2. Split the "Date of Event" and replaced it with "Day", "Month" and "Year"
+3. Used one-hot-encoding technique to store "Type" and "Gender" attributed
+   Note : "Type"   -> "Birth" = 0 / "Death" = 1
+          "Gender" -> "Male" = 0 / "Female" = 1
+4. Combined data from years 2010 to 2018 into single dataset "combined_cleaned_birth_and_death_2010-2011.csv"
 
+Open in Anaconda prompt type following command to open jupyter notebook
 ```
-Give an example
+jupyter notebook
 ```
+Then open "clean_visualize.ipnyb" and run each row one by one to clean and visualize 
 
-## Deployment
+### 3. Data Processing
 
-Add additional notes about how to deploy this on a live system
+Processed the combined raw dataset to get the following information:
+1. Number of Male/female births/deaths per day
+2. Number of Male/female births/deaths per month
+3. Number of Male/female births/deaths per year
+
+
+### 4. Visualization
+
+Visualized the information extracted from the data through following plots:
+1. Total male births vs month (per year) 
+2. Total female births vs month (per year)
+3. Total births vs month (per year)
+4. Total male deaths vs month (per year)
+5. Total female deaths vs month (per year)
+6. Total deaths vs month (per year)
+7. Month-wise trend of births vs years (male/female/total)
+8. Month-wise trend of deaths vs years (male/female/total)
+9.
+10.
+
+
+All the plots are stored in "Plots" folder.
+
+### 5. Insights
+
+
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Anaconda]() - The web framework used
+* []() - Dependency Management
+* []() - Used to generate RSS Feeds
 
 ## Contributing
 
