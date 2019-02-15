@@ -124,3 +124,9 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * Hat tip to anyone whose code was used
 * Inspiration
 * etc
+
+## Resources
+
+https://www.hindustantimes.com/pune-news/why-are-we-driving-ourselves-to-death-are-the-roads-in-pune-safe/story-xr4ZCTYgiBp0TXD5Krc20M.html
+https://timesofindia.indiatimes.com/city/pune/road-fatalities-highest-in-pune-mumbai-reveals-state-cid-report/articleshow/62287516.cms
+https://timesofindia.indiatimes.com/city/pune/referral-cases-raise-swine-flu-death-count-in-state/articleshow/67315778.cms
