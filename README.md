@@ -22,7 +22,6 @@ Make sure you install Anaconda for python 3.6 or above
 Open Anaconda prompt and run these commands
 ```
 conda install pandas, numpy, matplotlib, plotly, psutil, cufflinks, plotly-orca
-
 ```
 Verify Installation by running
 ```
@@ -41,12 +40,12 @@ We have taken the input dataset ad converted it into pure text CSV format for ea
 
 **Steps to convert the datasets**:
    1. Open Anaconda prompt and go to folder "**opendatapune-birth_and_death_records/converted_datasets**"".
-   2. Run the commands stored in "**conversion_commands.txt**" for the required conversion.
+   2. Run the commands stored in "**conversion_commands.txt**" for the required conversion.<br/><br/>
 Example:
 ```
 python xlsx_to_csv.py ../datasets/"List of Birth And Death rate for the year 2010.xlsx" 2010 birth_and_death_2010.csv
 ```
-After running all the commands u will see that all the xlsx files are converted to csv files and a essage "Successfully completed" shown after each conversion
+<br/>After running all the commands u will see that all the xlsx files are converted to csv files and a essage "Successfully completed" shown after each conversion
 
 ### 2. Data Cleaning
 
@@ -189,19 +188,18 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Sushant Gundla - [Github](https://github.com/Sharpyyy)
+* **Sushant Gundla** - [Github Profile](https://github.com/Sharpyyy)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+<!---
+## License 
+his project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+-->
 
 ## Acknowledgments
 
-* College of Engineering, Pune
-* Pune Open Data portal
+* Pune Open Data portal for providing with data
 
 ## Resources
 
 - https://www.hindustantimes.com/pune-news/why-are-we-driving-ourselves-to-death-are-the-roads-in-pune-safe/story-xr4ZCTYgiBp0TXD5Krc20M.html
-- https://timesofindia.indiatimes.com/city/pune/road-fatalities-highest-in-pune-mumbai-reveals-state-cid-report/articleshow/62287516.cms
 - https://timesofindia.indiatimes.com/city/pune/referral-cases-raise-swine-flu-death-count-in-state/articleshow/67315778.cms
