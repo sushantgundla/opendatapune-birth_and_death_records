@@ -30,7 +30,8 @@ pd.__version__
 ```
 
 3. Download the data sets:
-[Dataset for birth_and_death_records](http://opendata.punecorporation.org/Citizen/CitizenDatasets/Index?categoryId=50)
+<br/>[Dataset for birth_and_death_records](http://opendata.punecorporation.org/Citizen/CitizenDatasets/Index?categoryId=50)
+<br/>*Optional: Download the whole repository*
 
 
 ### 1. Converting xlsx files to raw csv files
@@ -91,24 +92,26 @@ Processed the combined raw dataset to get the following information:
 - "**Data_Cleaning_Preparation.ipnyb**" itself does the Data Preparation part.
 
 ### 4. Data Visualization
-*Note : Link to the side of the plot name takes you to the lot that is hosted online on plotly.*<br/><br/>
+*Note : Clicking on the plot name takes you to the chart which is hosted online on plotly.*<br/><br/>
 
 Visualized the information, extracted from the data, through following plots:
-1. Daily Birth and Death Trend
-2. Monthly Birth and Death Trend
-3. Yearly Birth and Death Trend
-4. Trend for Male Births
-5. Trend for Female Births
-6. Trend for Total Births
-7. Trend for Male Deaths
-8. Trend for Female Deaths
-9. Trend for Total Deaths
-10. Yearly population growth
-11. Yearly Increase/Decrease in Birth Rate
-12. Average per Month
-13. Swine-flu vs road accidents deaths
-14. Seasonal Decompositional analysis for Birth Trend
-15. Seasonal Decompositional analysis for Death Trend<br/>
+1. [Daily Birth and Death Trend](https://plot.ly/~gundla.sushant/101)
+2. [Monthly Birth and Death Trend](https://plot.ly/~gundla.sushant/103)
+3. [Yearly Birth and Death Trend](https://plot.ly/~gundla.sushant/105)
+4. [Trend for Male Births](https://plot.ly/~gundla.sushant/107)
+5. [Trend for Female Births](https://plot.ly/~gundla.sushant/109)
+6. [Trend for Total Births](https://plot.ly/~gundla.sushant/111)
+7. [Trend for Male Deaths](https://plot.ly/~gundla.sushant/113)
+8. [Trend for Female Deaths](https://plot.ly/~gundla.sushant/115)
+9. [Trend for Total Deaths](https://plot.ly/~gundla.sushant/117)
+10. [Yearly population growth](https://plot.ly/~gundla.sushant/119)
+11. [Yearly Increase/Decrease in Birth Rate](https://plot.ly/~gundla.sushant/121)
+12. [Average per Month](https://plot.ly/~gundla.sushant/123)
+13. [Swine-flu vs road accidents deaths](https://plot.ly/~gundla.sushant/125)
+14. [Seasonal Decompositional analysis for Birth Trend](https://plot.ly/~gundla.sushant/127)
+15. [Seasonal Decompositional analysis for Death Trend](https://plot.ly/~gundla.sushant/129)
+16. [Future Birth Prediction](https://plot.ly/~gundla.sushant/133)
+<br/>
 
 **How to run**:
 - Open Plots "**Data_Visualization.ipynb**" and run all code blocks
@@ -147,7 +150,7 @@ ARIMA model is used for future prediction which is state-of-art algorithm in Tim
 
 **How to run**:
 - Open "**Forecasting.ipynb**" and run all the code cells
-- The results can be seen in file "**2019_births_prediction.jpeg**" or "**2019_births_prediction.html**" saved in "plots" folder.
+- The results can be seen in file "**Future Birth Prediction.jpeg**" or "**2019_births_prediction.html**" saved in "plots" folder.
 
 ## What does the study tell us
 
@@ -156,6 +159,7 @@ ARIMA model is used for future prediction which is state-of-art algorithm in Tim
    - In Maharashta, Pune has the second highest Road fatalities. Our Analysis shows **Road accidents** cause **1.64%** of total deaths in Pune, compared to *0.18%* of that of deadly **swine-flu**.
    - **October** shows **Highest Average Total Births** of *2643* followed by **April** with *2508*. Data shows strong relation with the fact that,in Maharashtra, most of the **marriages* happen in month of *January* and *September*.
    - Comparing the data found in "**Detected cases and deaths due to diseases**" dataset(available on Pune Open Data Portal) and our datsets shows **dramatic differences in number of birth and death records**. The exact difference in number of recorded births and deaths from 2 datasets can be seen in file "**Recording_differences_between_datasets.csv**". 
+   - **Future Forecasting** predicts the *Number of Total Births* in year **2019** will be **48824**
    
 ### 2. Anamolies in data
 
