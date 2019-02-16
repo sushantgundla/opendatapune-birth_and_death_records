@@ -130,14 +130,16 @@ Note: Make use of these **interactive features** of plots for Visualization.
    
 ### 5. Analysis and Insights
 
-1. Insights on Daily information
-   stored in file "**Daily_Insights.csv**" in folder "Insights"<br/><br/>
+1. Insights on Daily information<br/>
+   - Stored in file "**Daily_Insights.csv**" in folder "Insights"<br/><br/>
    ![Daily_Insights](https://user-images.githubusercontent.com/39993298/52897921-03664900-31fe-11e9-983d-00149f293d7e.png)<br/><br/>
-2. Insights on Montly information
-   stored in file "**Monthly_Insights.csv**" in folder "Insights"<br/><br/>
+2. Insights on Montly information<br/>
+   - Stored in file "**Monthly_Insights.csv**" in folder "Insights"<br/><br/>
    ![Monthly_Insights 23](https://user-images.githubusercontent.com/39993298/52897922-0a8d5700-31fe-11e9-906a-58dadae928f2.png)<br/><br/>
-3. Birth and Death Records not registered in "Detected cases and deaths due to diseases" dataset
-   stored in file "**Recording_differences_between_datasets.csv**" in folder "Insights"<br/><br/>
+3. Birth and Death Records not registered in "Detected cases and deaths due to diseases" dataset<br/>
+   -After comparing our data with the data provided in "" dataset available at [link](http://opendata.punecorporation.org/Citizen/CitizenDatasets/Index) we found that the later dataset missed many number of birth and death record<br/>
+   - The below table shows the number of birth and death records missing in the later dataset.
+.   - Stored in file "**Recording_differences_between_datasets.csv**" in folder "Insights"<br/><br/>
    ![Recording_differences_between_datasets](https://user-images.githubusercontent.com/39993298/52897925-0e20de00-31fe-11e9-9cb5-1d8122a6b17b.png)<br/><br/>
 
 **How to run**:
@@ -158,7 +160,7 @@ ARIMA model is used for future prediction which is state-of-art algorithm in Tim
    - Drastical drop in recorded Birth records was seen in year **2014**. Our insights shows strong corelation with implementation of the **Two-child policy** in Maharashtra, in year 2014.
    - In Maharashta, Pune has the second highest Road fatalities. Our Analysis shows **Road accidents** cause **1.64%** of total deaths in Pune, compared to *0.18%* of that of deadly **swine-flu**.
    - **October** shows **Highest Average Total Births** of *2643* followed by **April** with *2508*. Data shows strong relation with the fact that,in Maharashtra, most of the **marriages* happen in month of *January* and *September*.
-   - Comparing the data found in "**Detected cases and deaths due to diseases**" dataset(available on Pune Open Data Portal) and our datsets shows **dramatic differences in number of birth and death records**. The exact difference in number of recorded births and deaths from 2 datasets can be seen in file "**Recording_differences_between_datasets.csv**". 
+   - Comparing the data found in "**Detected cases and deaths due to diseases**" dataset(available on PMC Open Data Store) and our datsets shows **dramatic differences in number of birth and death records**. The exact difference in number of recorded births and deaths from 2 datasets can be seen in file "**Recording_differences_between_datasets.csv**". 
    - **Future Forecasting** predicts the *Number of Total Births* in year **2019** will be **48,824**
    
 ### 2. Anamolies in data
