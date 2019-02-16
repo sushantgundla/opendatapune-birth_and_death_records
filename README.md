@@ -86,13 +86,13 @@ Processed the combined raw dataset to get the following information:
    
 4. Male,female and total **Population Growth** per year for 
    - *Atributes*: Year,male_births,female_births,total_births,male_deaths,female_deaths,total_deaths
-   - Stored in file "*Year_wise_information.csv*" in folder "Insights"<br/>
+   - Stored in file "*Recording_differences_between_datasets.csv*" in folder "Insights"<br/>
    
 **How to run**
 - "**Data_Cleaning_Preparation.ipnyb**" itself does the Data Preparation part.
 
 ### 4. Data Visualization
-*Note : Clicking on the plot name takes you to the chart which is hosted online on plotly.*<br/><br/>
+*Note : Clicking on the plot name takes you to the chart which is hosted online on plotly.*<br/>
 
 Visualized the information, extracted from the data, through following plots:
 1. [Daily Birth and Death Trend](https://plot.ly/~gundla.sushant/101)
@@ -159,12 +159,11 @@ ARIMA model is used for future prediction which is state-of-art algorithm in Tim
    - In Maharashta, Pune has the second highest Road fatalities. Our Analysis shows **Road accidents** cause **1.64%** of total deaths in Pune, compared to *0.18%* of that of deadly **swine-flu**.
    - **October** shows **Highest Average Total Births** of *2643* followed by **April** with *2508*. Data shows strong relation with the fact that,in Maharashtra, most of the **marriages* happen in month of *January* and *September*.
    - Comparing the data found in "**Detected cases and deaths due to diseases**" dataset(available on Pune Open Data Portal) and our datsets shows **dramatic differences in number of birth and death records**. The exact difference in number of recorded births and deaths from 2 datasets can be seen in file "**Recording_differences_between_datasets.csv**". 
-   - **Future Forecasting** predicts the *Number of Total Births* in year **2019** will be **48824**
+   - **Future Forecasting** predicts the *Number of Total Births* in year **2019** will be **48,824**
    
 ### 2. Anamolies in data
 
-   - **Highest #Birth records** of *298* was recorded on **10 Nov, 2011**, in past decade.
-   - Number of Birth records on **28 and 29 Apr, 2018** were **suspiciously low** than me normal daily births.
+   - Number of Birth records on **28 and 29 Apr, 2018** were **suspiciously low** than mean (average) daily births.
    - Number of Death records between **30 jun to 30 jul 2017** were **suspiciously low**. News shows no evidence of hospital shutdowns or strikes.
    - Prior half of **Aug 2016** shows high number deaths indicating some kind of **epidemic**, but analysis of news from july and aug 2016 shows no evidence of epidemic in Pune city. The reason for such high death records is not yet clear.
    - **Oct 2013** recorded highest births of *5640* in any month in past decade. The data looks anamolous, but after comparing the data to the "Detected cases and deaths due to diseases" dataset, it was found that the recorded data was true.
@@ -172,6 +171,7 @@ ARIMA model is used for future prediction which is state-of-art algorithm in Tim
    - Year **2016** recorded the highest number of deaths *31,374* in any year. Year 2016 is the only year that does not follow the normal trend in death records of *25k-30k*.
    
 ### 3. Insights from the data
+   - **Highest #Birth records** of *298* was recorded on **10 Nov, 2011**, in past decade.
    - **Female to Male Population growth** was **123.5%** shows increase in female population than male population in Pune.
    - **Female to Male Birth Ratio** was **92.2%** indicating almost same male vs female births.
    - **Female to Male Death Ratio** was **69.73%** indicating lot more male deaths than female deaths.
