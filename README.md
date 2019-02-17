@@ -43,7 +43,7 @@ We have taken the input dataset ad converted it into pure text CSV format for ea
 "**xlsx_to_csv.p**y" is a script that will automatically convert all the original datasets stored in folder datasets to text csv format and store them in converted/datsets.<br/>
 
 **Steps to convert the datasets**:
-   1. Open Anaconda prompt and go to folder "**opendatapune-birth_and_death_records/converted_datasets**"".
+   1. Open Anaconda prompt and go to folder "**opendatapune-birth_and_death_records/converted_datasets**".
    2. Run the commands stored in "**conversion_commands.txt**" for the required conversion.<br/><br/>
 Example:
 ```
@@ -140,7 +140,7 @@ Note: Make use of these **interactive features** of plots for Visualization.
    - Stored in file "**Monthly_Insights.csv**" in folder "Insights"<br/><br/>
    ![Monthly_Insights 23](https://user-images.githubusercontent.com/39993298/52897922-0a8d5700-31fe-11e9-906a-58dadae928f2.png)<br/><br/>
 3. Birth and Death Records not registered in "Detected cases and deaths due to diseases" dataset<br/>
-   - After comparing our data with the data provided in "" dataset available at [link](http://opendata.punecorporation.org/Citizen/CitizenDatasets/Index) we found that the later dataset missed many number of birth and death record<br/>
+   - After comparing our data with the data provided in "Detected cases and deaths due to diseases" dataset available at [link](http://opendata.punecorporation.org/Citizen/CitizenDatasets/Index) we found that the later dataset missed many number of birth and death record<br/>
    - The below table shows the number of birth and death records missing in the later dataset.
 .  - Stored in file "**Recording_differences_between_datasets.csv**" in folder "Insights"<br/><br/>
    ![Recording_differences_between_datasets](https://user-images.githubusercontent.com/39993298/52897925-0e20de00-31fe-11e9-9cb5-1d8122a6b17b.png)<br/><br/>
