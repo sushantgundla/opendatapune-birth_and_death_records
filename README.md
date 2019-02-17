@@ -82,7 +82,7 @@ Processed the combined raw dataset to get the following information:
    - Stored in file "*Month_wise_information.csv*" in folder "Insights"
    
 3. **Year-wise** data of number of male,female and total births and deaths
-   -*Attributes*: Year,male_births,female_births,total_births,male_deaths,female_deaths,total_deaths
+   - *Attributes*: Year,male_births,female_births,total_births,male_deaths,female_deaths,total_deaths
    - Stored in file "*Year_wise_information.csv*" in folder "Insights"
    
 4. Male,female and total **Population Growth** per year for 
@@ -138,9 +138,9 @@ Note: Make use of these **interactive features** of plots for Visualization.
    - Stored in file "**Monthly_Insights.csv**" in folder "Insights"<br/><br/>
    ![Monthly_Insights 23](https://user-images.githubusercontent.com/39993298/52897922-0a8d5700-31fe-11e9-906a-58dadae928f2.png)<br/><br/>
 3. Birth and Death Records not registered in "Detected cases and deaths due to diseases" dataset<br/>
-   -After comparing our data with the data provided in "" dataset available at [link](http://opendata.punecorporation.org/Citizen/CitizenDatasets/Index) we found that the later dataset missed many number of birth and death record<br/>
+   - After comparing our data with the data provided in "" dataset available at [link](http://opendata.punecorporation.org/Citizen/CitizenDatasets/Index) we found that the later dataset missed many number of birth and death record<br/>
    - The below table shows the number of birth and death records missing in the later dataset.
-.   - Stored in file "**Recording_differences_between_datasets.csv**" in folder "Insights"<br/><br/>
+.  - Stored in file "**Recording_differences_between_datasets.csv**" in folder "Insights"<br/><br/>
    ![Recording_differences_between_datasets](https://user-images.githubusercontent.com/39993298/52897925-0e20de00-31fe-11e9-9cb5-1d8122a6b17b.png)<br/><br/>
 
 **How to run**:
