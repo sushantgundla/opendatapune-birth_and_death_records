@@ -11,17 +11,17 @@ Problem Statement: [__opendatapune/birth_and_death_records__](https://github.com
 4. Locate anomalies in the data
 5. Compare with historical events, passing of laws like legislation on early sex determination, weather events
 6. Compare between the genders
-7. Create time series based visualizations, similar to stock market / currency charts.
+7. Create time series based visualizations, similar to stock market/currency charts.
 
 ## Getting Started
 
 ### Prerequisites
 
 1. Install and setup Anaconda
-Find a easy installation and setup guide using this [link](https://www.datacamp.com/community/tutorials/installing-anaconda-windows)
+Find an easy installation and setup guide using this [link](https://www.datacamp.com/community/tutorials/installing-anaconda-windows)
 Make sure you install Anaconda for python 3.6 or above
 
-2. Install required packages:
+2. Install the required packages:
 Open Anaconda prompt and run these commands
 ```
 conda install pandas, numpy, matplotlib, plotly, psutil, cufflinks, plotly-orca
@@ -39,8 +39,8 @@ pd.__version__
 
 ### 1. Converting xlsx files to raw csv files
 
-We have taken the input dataset ad converted it into pure text CSV format for easy cleaning process.<br/>
-"**xlsx_to_csv.p**y" is a script that will automatically convert all the original datasets stored in folder datasets to text csv format and store them in converted/datsets.<br/>
+We have taken the input dataset and converted it into pure text CSV format for easy cleaning process.<br/>
+"**xlsx_to_csv.p**y" is a script that will automatically convert all the original datasets stored in folder datasets to text CSV format and store them in "**converted/datasets**".<br/>
 
 **Steps to convert the datasets**:
    1. Open Anaconda prompt and go to folder "**opendatapune-birth_and_death_records/converted_datasets**".
@@ -79,7 +79,7 @@ Processed the combined raw dataset to get the following information:
    - *Attributes*: Day,Month,Year,male_births,female_births,total_births,male_deaths,female_deaths,total_deaths
    - Stored in file "*Day_wise_information.csv*" in folder "Insights"
    
-2. **Month-wise** data of number of male,female and total births and deaths
+2. **Month-wise** data of number of male, female and total births and deaths
    - *Attributes*: Month,Year,male_births,female_births,total_births,male_deaths,female_deaths,total_deaths
    - Stored in file "*Month_wise_information.csv*" in folder "Insights"
    
@@ -87,7 +87,7 @@ Processed the combined raw dataset to get the following information:
    - *Attributes*: Year,male_births,female_births,total_births,male_deaths,female_deaths,total_deaths
    - Stored in file "*Year_wise_information.csv*" in folder "Insights"
    
-4. Male,female and total **Population Growth** per year for 
+4. Male, female and total **Population Growth** per year for 
    - *Atributes*: Year,male_births,female_births,total_births,male_deaths,female_deaths,total_deaths
    - Stored in file "*Recording_differences_between_datasets.csv*" in folder "Insights"<br/>
    
@@ -95,9 +95,9 @@ Processed the combined raw dataset to get the following information:
 - "**Data_Cleaning_Preparation.ipnyb**" itself does the Data Preparation part.
 
 ### 4. Data Visualization
-*Note : Clicking on the plot name takes you to the chart which is hosted online on plotly.*<br/>
+* Note: Clicking on the plot name takes you to the chart which is hosted online on plotly.*<br/>
 
-Visualized the information, extracted from the data, through following plots:
+Visualized the information, extracted from the data, through the following plots:
 1. [Daily Birth and Death Trend](https://plot.ly/~gundla.sushant/101)
 2. [Monthly Birth and Death Trend](https://plot.ly/~gundla.sushant/103)
 3. [Yearly Birth and Death Trend](https://plot.ly/~gundla.sushant/105)
@@ -121,15 +121,15 @@ Visualized the information, extracted from the data, through following plots:
 
 **Where to find plots**:
    - Plots can be visualized in the "**Data_Visualization.ipynb**" file
-   - Plots are stored in "**plots**" folder in image format as well as html format.
+   - Plots are stored in "**plots**" folder in image format as well as HTML format.
    - Plots can be viewed online through the links provided next to the plot names.
    
 Note: Make use of these **interactive features** of plots for Visualization.
    - Legend(top right) can be used to show or hide a particular trace/bar on the map.
-   - Buttons(top left) can be used to select predifined configuration of traces/bars.
-   - Hovering over the plot shows the values corresponding to x axis for all traces/bars.
-   - Range slider(below x axis) can be used choose the range to display on the plot.
-   - Pinch to zoom in/out oprion is available
+   - Buttons(top left) can be used to select a predefined configuration of traces/bars.
+   - Hovering over the plot shows the values corresponding to the x-axis for all traces/bars.
+   - Range slider(below x-axis) can be used to choose the range to display on the plot.
+   - Pinch to zoom in/out option is available
    
 ### 5. Analysis and Insights
 
@@ -140,7 +140,7 @@ Note: Make use of these **interactive features** of plots for Visualization.
    - Stored in file "**Monthly_Insights.csv**" in folder "Insights"<br/><br/>
    ![Monthly_Insights 23](https://user-images.githubusercontent.com/39993298/52897922-0a8d5700-31fe-11e9-906a-58dadae928f2.png)<br/><br/>
 3. Birth and Death Records not registered in "Detected cases and deaths due to diseases" dataset<br/>
-   - After comparing our data with the data provided in "Detected cases and deaths due to diseases" dataset available at [link](http://opendata.punecorporation.org/Citizen/CitizenDatasets/Index) we found that the later dataset missed many number of birth and death record<br/>
+   - After comparing our data with the data provided in "Detected cases and deaths due to diseases" dataset available at [link](http://opendata.punecorporation.org/Citizen/CitizenDatasets/Index) we found that the later dataset missed many birth and death records<br/>
    - The below table shows the number of birth and death records missing in the later dataset.
 .  - Stored in file "**Recording_differences_between_datasets.csv**" in folder "Insights"<br/><br/>
    ![Recording_differences_between_datasets](https://user-images.githubusercontent.com/39993298/52897925-0e20de00-31fe-11e9-9cb5-1d8122a6b17b.png)<br/><br/>
@@ -150,30 +150,30 @@ Note: Make use of these **interactive features** of plots for Visualization.
 
 ### 6. Future Forecasting
 
-We used the montly data from year 2010 to 2018 to predict the number of births in year 2019.<br/>
-ARIMA model is used for future prediction which is state-of-art algorithm in Time-Series Forecasting.<br/>
+We used the monthly data from the year 2010 to 2018 to predict the number of births in the year 2019.<br/>
+ARIMA model is used for future prediction which is a state-of-art algorithm in Time-Series Forecasting.<br/>
 
 **How to run**:
 - Open "**Forecasting.ipynb**" and run all the code cells
-- The results can be seen in file "**Future Birth Prediction.jpeg**" or "**2019_births_prediction.html**" saved in "plots" folder.
+- The results can be seen in the file "**Future Birth Prediction.jpeg**" or "**2019_births_prediction.html**" saved in "plots" folder.
 
 ## What does the study tell us
 
 ### 1. Important Insights
-   - Drastical drop in recorded Birth records was seen in year **2014**. Our insights shows strong corelation with implementation of the **Two-child policy** in Maharashtra, in year 2014.
-   - In Maharashta, Pune has the second highest Road fatalities. Our Analysis shows **Road accidents** cause **1.64%** of total deaths in Pune, compared to *0.18%* of that of deadly **swine-flu**.
-   - **October** shows **Highest Average Total Births** of *2643* followed by **April** with *2508*. Data shows strong relation with the fact that,in Maharashtra, most of the **marriages* happen in month of *January* and *September*.
-   - Comparing the data found in "**Detected cases and deaths due to diseases**" dataset(available on PMC Open Data Store) and our datsets shows **dramatic differences in number of birth and death records**. The exact difference in number of recorded births and deaths from 2 datasets can be seen in file "**Recording_differences_between_datasets.csv**". 
+   - A drastic drop in recorded Birth records was seen in year **2014**. Our insights show a strong correlation with the implementation of the **Two-child policy** in Maharashtra, in the year 2014.
+   - In Maharashtra, Pune has the second highest Road fatalities. Our Analysis shows **Road accidents** cause **1.64%** of total deaths in Pune, compared to *0.18%* of that of deadly **swine-flu**.
+   - **October** shows **Highest Average Total Births** of *2643* followed by **April** with *2508*. Data shows strong relation with the fact that, in Maharashtra, most of the **marriages* happen in the month of *January* and *September*.
+   - Comparing the data found in "**Detected cases and deaths due to diseases**" dataset(available on PMC Open Data Store) and our datasets shows **dramatic differences in the number of birth and death records**. The exact difference in a number of recorded births and deaths from 2 datasets can be seen in file "**Recording_differences_between_datasets.csv**". 
    - **Future Forecasting** predicts the *Number of Total Births* in year **2019** will be **48,824**
    
-### 2. Anamolies in data
+### 2. Anomalies in data
 
-   - Number of Birth records on **28 and 29 Apr, 2018** were **suspiciously low** than mean (average) daily births.
-   - Number of Death records between **30 jun to 30 jul 2017** were **suspiciously low**. News shows no evidence of hospital shutdowns or strikes.
-   - Prior half of **Aug 2016** shows high number deaths indicating some kind of **epidemic**, but analysis of news from july and aug 2016 shows no evidence of epidemic in Pune city. The reason for such high death records is not yet clear.
-   - **Oct 2013** recorded highest births of *5640* in any month in past decade. The data looks anamolous, but after comparing the data to the "Detected cases and deaths due to diseases" dataset, it was found that the recorded data was true.
-   - Number of Birth records in year **2010** were lowest indicating poor birth data recording that year.
-   - Year **2016** recorded the highest number of deaths *31,374* in any year. Year 2016 is the only year that does not follow the normal trend in death records of *25k-30k*.
+   - The number of Birth records on **28 and 29 Apr 2018** were **suspiciously low** than mean (average) daily births.
+   - The number of Death records between **30 Jun to 30 Jul 2017** were **suspiciously low**. News shows no evidence of hospital shutdowns or strikes.
+   - Prior half of **Aug 2016** shows high number deaths indicating some kind of **epidemic**, but analysis of news from July and Aug 2016 shows no evidence of an epidemic in Pune city. The reason for such high death records is not yet clear.
+   - **Oct 2013** recorded highest births of *5640* in any month in past decade. The data looks anomalous, but after comparing the data to the "Detected cases and deaths due to diseases" dataset, it was found that the recorded data was true.
+   - The number of Birth records in year **2010** were lowest indicating poor birth data recording that year.
+   - Year **2016** recorded the highest number of deaths *31,374* in any year. The year 2016 is the only year that does not follow the normal trend in death records of *25k-30k*.
    
 ### 3. Insights from the data
    - **Highest #Birth records** of *298* was recorded on **10 Nov, 2011**, in past decade.
@@ -188,8 +188,8 @@ ARIMA model is used for future prediction which is state-of-art algorithm in Tim
    
 ## Conclusion
  
- - In Maharshtra state, **Pune** city has **Highest Road Fatalities** after Mumbai City.Every year, over 400 people lose their lives in road accidents. Stats shows that only **16 of every 100 people** are seen wearing helmets in Pune. While Departments of **Insect Control** and **Epidemic Disease Control** of **Pune Municipal Corporation** are doing good job to keep the **Deaths caused due to diseases** as low as **0.2%** of total deaths, Pune **road fatalies** cause more than **1.6%** deaths of all deaths.<br/>
-- Pune Road safety authoeirties must do something to bring down the road fatalities to decrease the deaths in Pune city.
+ - In Maharashtra state, **Pune** city has **Highest Road Fatalities** after Mumbai City. Every year, over 400 people lose their lives in road accidents. Stats show that only **16 of every 100 people** are seen wearing helmets in Pune. While Departments of **Insect Control** and **Epidemic Disease Control** of **Pune Municipal Corporation** are doing a good job to keep the **Deaths caused due to diseases** as low as **0.2%** of total deaths, Pune **road fatalities** cause more than **1.6%** deaths of all deaths.<br/>
+- Pune Road safety authorities must do something to bring down the road fatalities to decrease the deaths in Pune city.
 
 ## Contributing
 
