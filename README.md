@@ -1,6 +1,8 @@
-# Open Data Hackathon - Birth and Death records
+# Open Data Hackathon - Cleaning and Analysis of Birth and Death records
 Data cleaning and analysis of the birth and death records for the Open Data Hackathon organized by PMC Open Data Portal.<br/>
-![image](https://cdn-az.allevents.in/banners/51cf7ab0-22ce-11e9-b994-439583700c4c-rimg-w526-h388-gmir.jpg)
+<p align="center">
+  <img width="600" height="400" src="https://cdn-az.allevents.in/banners/51cf7ab0-22ce-11e9-b994-439583700c4c-rimg-w526-h388-gmir.jpg">
+</p>
 
 Problem Statement: [__opendatapune/birth_and_death_records__](https://github.com/opendatapune/Problem-Statements/wiki/Birth-and-Death-records)
 1. Combine various years datasets into a clean machine-readable CSV
