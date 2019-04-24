@@ -40,7 +40,7 @@ pd.__version__
 ### 1. Converting xlsx files to raw csv files
 
 We have taken the input dataset and converted it into pure text CSV format for easy cleaning process.<br/>
-"**xlsx_to_csv.p**y" is a script that will automatically convert all the original datasets stored in folder datasets to text CSV format and store them in "**converted/datasets**".<br/>
+"**xlsx_to_csv.py**" is a script that will automatically convert all the original datasets stored in folder datasets to text CSV format and store them in "**converted/datasets**".<br/>
 
 **Steps to convert the datasets**:
    1. Open Anaconda prompt and go to folder "**opendatapune-birth_and_death_records/converted_datasets**".
